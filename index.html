@@ -1,4 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <audio controls autoplay>
+        <source src="./file/Beautiful.mp3">
+    </audio>
+</body>
+</html>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
 
 <HTML>
 
@@ -227,7 +237,7 @@ var ParticlePool = (function() {
 
       duration    = settings.particles.duration;
 
- 
+
 
   function ParticlePool(length) {
 
@@ -245,7 +255,7 @@ var ParticlePool = (function() {
 
     particles[firstFree].initialize(x, y, dx, dy);
 
-   
+
 
     // handle circular queue
 
@@ -263,7 +273,7 @@ var ParticlePool = (function() {
 
     var i;
 
-   
+
 
     // update active particles
 
@@ -287,7 +297,7 @@ var ParticlePool = (function() {
 
     }
 
-   
+
 
     // remove inactive particles
 
@@ -299,9 +309,9 @@ var ParticlePool = (function() {
 
     }
 
-   
 
-   
+
+
 
   };
 
@@ -352,7 +362,7 @@ var ParticlePool = (function() {
 
       time;
 
- 
+
 
   // get point on heart with -PI <= t <= PI
 
@@ -368,7 +378,7 @@ var ParticlePool = (function() {
 
   }
 
- 
+
 
   // creating the particle image using a dummy canvas
 
@@ -434,7 +444,7 @@ var ParticlePool = (function() {
 
   })();
 
- 
+
 
   // render that thing!
 
@@ -444,7 +454,7 @@ var ParticlePool = (function() {
 
     requestAnimationFrame(render);
 
-   
+
 
     // update time
 
@@ -454,13 +464,13 @@ var ParticlePool = (function() {
 
     time = newTime;
 
-   
+
 
     // clear canvas
 
     context.clearRect(0, 0, canvas.width, canvas.height);
 
-   
+
 
     // create new particles
 
@@ -476,7 +486,7 @@ var ParticlePool = (function() {
 
     }
 
-   
+
 
     // update and draw particles
 
@@ -486,7 +496,7 @@ var ParticlePool = (function() {
 
   }
 
- 
+
 
   // handle (re-)sizing of the canvas
 
@@ -500,7 +510,7 @@ var ParticlePool = (function() {
 
   window.onresize = onResize;
 
- 
+
 
   // delay rendering bootstrap
 
@@ -514,6 +524,9 @@ var ParticlePool = (function() {
 
 })(document.getElementById('pinkboard'));
   </script>
+
+
+
   <div class="center-text",
   style="background-color:rgb(0, 0, 0);
         width: 100%;
@@ -527,9 +540,7 @@ var ParticlePool = (function() {
         margin-bottom: 5px;
         text-align: center;">Anh Yêu Em</div
 
-  <audio autoplay loop>
-    <source src="./file/Beautiful.mp3>
-  </audio>
+
  </BODY>
 
 </HTML>
